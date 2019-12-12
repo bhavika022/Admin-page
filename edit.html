@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Edit user</title>
+        <link rel="stylesheet" href="editstyle.css">
+    </head>
+    <body>
+        <form action="action_page.php">
+            <div class="container">
+                <h1>Edit User</h1>
+                <p>Please fill this form to edit user's information.</p>
+                <hr>
+                
+                <label for="name"><b>Name</b></label><br>
+                <input type="text" placeholder="Enter name" name="name"><br>
+            
+                <label for="username"><b>Username</b></label><br>
+                <input type="text" placeholder="Enter username" name="username"><br>
+            
+                <label for="psw"><b>Password</b></label><br>
+                <input type="password" placeholder="Enter password" name="psw"><br>
+                
+                <label for="psw"><b>Re-enter Password</b></label><br>
+                <input type="password" placeholder="Enter password again" name="psw"><br>
+            
+                <label for="phone_no"><b>Phone number</b></label><br>
+                <input type="tel" placeholder="Enter phone number" name="phone_no"><br>
+            
+                <label for="email"><b>Email</b></label><br>
+                <input type="text" placeholder="Enter email" name="email"><br>
+            
+                <label for="gender"><b>Gender</b></label><br>
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female">Female<br>
+                <input type="radio" name="gender" value="other">Other<br>
+                <hr>
+            
+                <a href="index.html">
+                <button type="submit" class="registerbtn">Edit</button>
+                </a>
+                
+            </div>
+        </form>
+    </body>
+</html>

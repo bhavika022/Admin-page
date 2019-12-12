@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 10, 2019, 9:15:31 PM
+    Author     : hp
+*/
+*{box-sizing: border-box;}
+
+.container{
+    padding: 16px;
+}
+
+input[type=text]{
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: lightblue;
+}
+
+input[type=text]:focus{
+    background-color: lightsteelblue;
+    outline: none;
+}
+
+hr{
+    border: 1px solid blue;
+    margin-bottom: 25px;
+}
+
+.registerbtn{
+    background-color: lightskyblue;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+}
+
+.registerbtn:hover{
+    opacity: 1;
+}
+
+

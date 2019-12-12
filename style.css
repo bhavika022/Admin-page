@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/back3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box{
+    width: 600px;
+    height: 430px;
+    position: relative;
+    margin: 6% auto;
+    background:#fff;
+    box-shadow: 0 0 25px white;
+    padding: 5px;
+    top: 10%;
+}
+
+.button-box{
+    width: 400px;
+    height: 350px;
+    margin-left: 560px;
+    position: absolute;
+    top: 30%;
+    box-shadow: 0 0 20px 9px gray;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    width: 130px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: transparent;
+    text-align: center;
+    border-radius:20px;
+    border-color: blue;
+    top:3%;
+    background-color: lightskyblue;
+    /*border: 1px solid blue;*/
+    color: white;
+    outline: none;
+    position: relative;
+    display: inline;
+}
+
+.toggle-btn:hover{
+    background-color: blue;
+    width: 130px;
+    border-radius: 20px;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    text-align: right;
+    border-radius: 12px;
+    background: linear-gradient(to right, lightblue,steelblue);
+    /*border-radius: 30px;*/
+    
+}
+
+.create_user-form{
+    width: 400px;
+    padding: 10%;
+    align-content: center;
+    margin-left:15px;
+    display: block;
+    position: relative;
+    top: 2%;
+    display: inline-block;
+}
+
+input[type=text], input[type=password]{
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: lightblue;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+    background-color: steelblue;
+    outline: none;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: white;
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    display: block;
+}
+
+.login-button{
+    background-color: lightskyblue;
+    color: white;
+    padding: 10px 20px;
+    margin: 12px 0;
+    margin-left: 100px;
+    border-color: blue;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+  
+}
+.login-button:hover{
+    opacity: 1;
+    background-color: blue;
+}
